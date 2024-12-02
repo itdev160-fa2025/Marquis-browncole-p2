@@ -1,0 +1,109 @@
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #80b192;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#header-icon {
+    margin-left: 20px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#food-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 400px;
+    height: 600px;
+}
+
+article h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #80b192;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #80b192;
+}
+
+#prep ul,
+#instructions ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#prep li,
+#instructions li {
+    margin-bottom: 10px;
+}
+
+/* Nutrition*/
+#health-stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1; 
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #80b192; 
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive fluff */
+@media (max-width: 768px) 
+{
+    header h1 {
+        font-size: 2em;
+    }
+
+    main {
+        width: 90%;
+    }
+}
